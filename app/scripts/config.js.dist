@@ -2,14 +2,14 @@ angular.module('config', [])
     .constant('CONFIG', {
         CI: {
             JENKINS: {
-                URL: 'https://travis-ci.org/M6Web/',
-                AUTHORIZATION_TOKEN: '',
-                DEFAULT_VIEW: 'All',
-                JOBS_TO_BE_DISPLAYED: ['red : failing job']
+                URL: '91.121.101.165:8083',
+                AUTHORIZATION_TOKEN: '3691d1782bf69cd2f32f9188c30b1e8d',
+                DEFAULT_VIEW: 'Default',
+                JOBS_TO_BE_DISPLAYED: ['red','red_anime','blue','blue_anime']
             }
         },
         MAX_JOBS_PER_LINE: 4,
         REFRESH_TIME: 10000,
-        BACKGROUND_BLANK_SCREEN_URL: '',
+        BACKGROUND_BLANK_SCREEN_URL: 'http://www.guoguiyan.com/data/out/64/68870368-empty-wallpapers.jpg',
         JOBS_NOT_DISPLAYED_REGEXP: ''
     });
